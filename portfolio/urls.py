@@ -1,6 +1,6 @@
 
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from home_app import views as views_home
 from about_app import views as views_about
 from skill_app import views as views_skills
@@ -10,7 +10,8 @@ from contact_app import views as views_contact
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/', views_home.home, name='home'),
+    path('', include('home_app.urls')),
+    # path('home/', views_home.home, name='home'),
     path('about/', views_about.about, name='about'),
     path('skill/', views_skills.skill, name='skill'),
     path('project/', views_projects.project, name='project'),
