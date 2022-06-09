@@ -6,5 +6,6 @@
 4. For any queries user can contact me by filling the Contact form of the portfolio application which sends the contact details to my personal gmail so, 
    that i can get back to them for any clarifications 
 5. Code manipulations and version controls are handled by Git and GitHub version control system, to keep a track on the project source code. 
-6. Deployed web applications to HEROKU server to make it available for all. 
-7. Participated in the entire application lifecycle, focusing on coding and debugging.
+6. Participated in the entire application lifecycle, focusing on coding and debugging.
+7. And deployed web applications to HEROKU server to make it available for all. 
+
